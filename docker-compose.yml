@@ -10,7 +10,7 @@ services:
             CRON_TIME: '23 17 * * *'
             INIT_BACKUP: 'true'
             POSTGRES_USER: root
-            POSTGRES_PASSWORD: emqpublic
+            POSTGRES_PASSWORD: public
             POSTGRES_PORT: 5432
             MAX_BACKUPS: 3
             POSTGRES_HOST: postgres
